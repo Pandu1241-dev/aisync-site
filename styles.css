@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+header {
+  background: #004d99;
+  color: white;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.intro {
+  background: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.industries {
+  background: #e6f2ff;
+  padding: 40px 0;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.card {
+  background: white;
+  flex: 1 1 30%;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.card ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.tech-stack, .contact {
+  background: white;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.button {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 12px 25px;
+  background-color: #25D366;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+footer {
+  background: #003366;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.business-integration {
+  background: #ffffff;
+  color: #333;
+  padding: 60px 20px;
+}
+
+.business-integration h2 {
+  font-size: 26px;
+  margin-bottom: 16px;
+}
+
+.business-integration p {
+  font-size: 17px;
+  margin-bottom: 20px;
+  color: #444;
+}
+
+.integration-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.integration-list li {
+  font-size: 16px;
+  margin-bottom: 12px;
+  line-height: 1.6;
+  padding-left: 1em;
+  text-indent: -1em;
+}
+
